@@ -1,37 +1,37 @@
-# Sales & Revenue Analysis using SQL (SQLite)
+# Amazon Review Scraping & Analysis
 
-## Objective
-Analyze real-world e-commerce sales data and extract business insights using SQL.
+## Project Overview
+This project demonstrates an end-to-end data workflow including **web scraping, data cleaning, analysis, and SQL-based reporting** using real Amazon product review data.
 
-## Dataset
-Online Retail Dataset (UCI / Kaggle) containing transactional sales data.
+## What This Project Does
+- Scrapes Amazon product reviews using Python
+- Cleans and structures the scraped data
+- Stores transactional-style data in a SQLite database
+- Performs business-oriented analysis using SQL queries
 
 ## Tools & Technologies
-- Python
-- SQLite
-- SQL
-- Pandas
+- Python (Pandas, BeautifulSoup, Selenium)
+- SQL (SQLite, MySQL-compatible queries)
+- Excel / CSV
+- PyCharm
 
-## Data Preparation
-- Cleaned missing and invalid values (null customers, negative quantities)
-- Normalized data into relational tables:
-  - customers
-  - products
-  - orders
-  - order_details
+## Key Components
+- **Web Scraping:** Automated extraction of Amazon reviews
+- **Data Processing:** Cleaning and transformation in Python
+- **SQL Analysis:** Revenue-style and customer-focused queries
+- **Database Modeling:** Customers, products, orders, order details
 
-## Key Analysis
-- Monthly revenue trends
-- Top-performing products
-- Customer lifetime value
-- Average order value
-- Revenue by country
+## Example Analyses
+- Review distribution by rating
+- Product-level aggregation
+- Customer-level analysis using SQL
+- Revenue-style KPIs (for analytics practice)
 
 ## How to Run
-1. Place `online_retail.csv` in the `data/` folder
-2. Run `sqlite_sales_analysis.py`
-3. SQLite database will be generated locally
-4. Execute SQL queries from `analysis_queries.sql`
+1. Run the Python scripts to scrape and clean data
+2. Execute the SQLite pipeline to create the database
+3. Run SQL queries from `analysis_queries.sql`
 
-## Outcome
-Demonstrated ability to model relational data, write analytical SQL queries, and translate business questions into insights.
+## Purpose
+This project was created to practice **real-world data engineering and analytics workflows** relevant for **Data Analyst / Business Intelligence / Werkstudent roles**.
+
